@@ -38,7 +38,7 @@ Nevents=200;
 for j=1:Nevents
 disp(['Test process : ',num2str((j/Nevents)*100),'%']);
 disp(['This is the ', num2str(j), 'th iteration']);   
-%% Data generation
+%% Data generation   
 % sim_parameters.matrix = rand(sim_parameters.K,sim_parameters.M)+1i*rand(sim_parameters.K,sim_parameters.M);
 sim_parameters.random_bit=randi(2,1,sim_parameters.data_size)-1;
 %%
