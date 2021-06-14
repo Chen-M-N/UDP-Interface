@@ -54,39 +54,3 @@ disp(' ');
 disp('' );
 end
 obj = do_UDP_close(obj);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-% Nevents=3;
-
-% for i=0:Nevents
-
-
-% 
-% obj=do_UDP_transmission(obj);
-% disp(['the ' num2str(i) 'the send data is:']);
-% disp(sim_parameters.matrix );
-% disp(['the ' num2str(i) 'the received data is:']);
-% disp(obj.received_data);
-% %%show error matrix
-% dff=double(sim_parameters.matrix)-double(obj.received_data);
-% disp('the errors are:');
-% disp(dff);
-% end
