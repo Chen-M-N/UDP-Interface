@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="379565D91A95F8716FB71D0F9704B16317E09B16CF516F3F6E9A7222744F32775BF495533FFE6DB0C443F9CB281357A6B0048F4443F47726DF1B460616FB1EFC" Timestamp="1D7564E103E2A5C" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="310e41b1c62945e89e65880823faa31b" RootNamespaceId="30cb2e2a98a24c188bd9bcc67ce543f2" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="3c9dd78e85674949859d7542a5dfb716" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="a1435493d26b4f968fe93dae03c7d8e2" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="605d768b6bdf4b8bbd7b76bf1d5ff738" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="6783aeac2e22455f8f2ba699493a06d5" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="5b0cbbf3832041da89a36b891b763e29" Name="Configuration1">
+			<CompilerSymbolTable Id="a4138e031a1345e6852b89d7df9c8e7d" xmlns="http://www.ni.com/PlatformFramework" />
+			<GLibraryProperties Id="a8094172c7f7423ba6b32ad4742aa967" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="d40733a92508400f9bdf389f4b04874a" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="b33d4befc6d94fffb898c54be830178a" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="afad8be4e36a4b0a8060fec06b20b9dc" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="30cb2e2a98a24c188bd9bcc67ce543f2" Name="Lib_FPGA" />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="a1061ff3c17848cb919cb797598bb072" Name="Lib_FPGA.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="5b0cbbf3832041da89a36b891b763e29" Id="e3d321a40a1c45c89cbd4865ed6719f2" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

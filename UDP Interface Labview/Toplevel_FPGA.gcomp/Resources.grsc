@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="40BA3CFF8CDB24BA8915E61CF87D6503D3C4F58E67F95DD401F1871F622DA150B2D5E8F4A293D56BA8DE8589DDE1E29A7E4201A277F1E8C46DB7985FE3BD8969" Timestamp="1D75AB1173C2DA9" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW FPGA" Name="http://www.ni.com/LabVIEW.FPGA/SystemDesigner/SystemModel" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="SharedResourceCollection" Name="http://www.ni.com/SharedResourceCollection" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/Common/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModel" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModelCore" OldestCompatibleVersion="5.1.0.5" Version="5.2.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<SharedResourceCollection xmlns="http://www.ni.com/SharedResourceCollection">
+		<EnvoySuperimpositionContainer Id="a57fb482b62947bd91db63a855c34308" xmlns="http://www.ni.com/SystemDesigner/EnvoyManagement">
+			<MappingManager Id="b368e3a170504d9ab96d7367f242e116" xmlns="http://www.ni.com/SystemDesigner/SystemModelCore">
+				<Instance Id="9202fb0f6e4a4931b2877c6f6f1cea44" Source="{http://www.ni.com/LabVIEW.FPGA/SystemDesigner/SystemModel}HostToTargetFifo">
+					<Symbols p6:Path="[{http://www.ni.com/LabVIEW.FPGA/SystemDesigner/SystemModel}HostToTargetFifo]Fifo" p7:Fifo.Depth="8197" p8:Process.AliasName="H2T" p8:Process.DataType="UInt32" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SystemDesigner/Common/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy" />
+					<Symbols p6:Path="[{http://www.ni.com/LabVIEW.FPGA/SystemDesigner/SystemModel}HostToTargetFifo]Fifo/DataPort" p7:Process.DataType="UInt32" xmlns:p7="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy" />
+				</Instance>
+				<Instance Id="f04fee2835ac4d6b85dde4d7ab94f5a0" Source="{http://www.ni.com/LabVIEW.FPGA/SystemDesigner/SystemModel}TargetToHostFifo">
+					<Symbols p6:Path="[{http://www.ni.com/LabVIEW.FPGA/SystemDesigner/SystemModel}TargetToHostFifo]Fifo" p7:Fifo.Depth="8191" p8:Process.AliasName="T2H" p8:Process.DataType="UInt32" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SystemDesigner/Common/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy" />
+					<Symbols p6:Path="[{http://www.ni.com/LabVIEW.FPGA/SystemDesigner/SystemModel}TargetToHostFifo]Fifo/DataPort" p7:Process.DataType="UInt32" xmlns:p7="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy" />
+				</Instance>
+				<Instance Id="2cc213f2a8ac4b29aec730c8c39e418d" Source="{http://www.ni.com/LabVIEW.FPGA/SystemDesigner/SystemModel}DerivedClock">
+					<Symbols p6:Path="[{http://www.ni.com/LabVIEW.FPGA/SystemDesigner/SystemModel}DerivedClock]DerivedClock" p7:Clock.Divisor="1" p7:Clock.Multiplier="2" xmlns:p7="http://www.ni.com/SystemDesigner/Common/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy" />
+				</Instance>
+				<Superimposition Id="8087b0d9e424426a01c595ebab899b6" Name="Root Superimposition">
+					<Superimpose Source="9202fb0f6e4a4931b2877c6f6f1cea44" />
+					<Superimpose Source="f04fee2835ac4d6b85dde4d7ab94f5a0" />
+					<Superimpose Source="2cc213f2a8ac4b29aec730c8c39e418d" />
+				</Superimposition>
+			</MappingManager>
+		</EnvoySuperimpositionContainer>
+	</SharedResourceCollection>
+	<EnvoyManagerFile Id="e8fdcd153f1c41b5aa336ffa896445ac" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="ca665cc8b3af4b2583ce5b92b26df4d0" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="d721fcb6afaa47278a47f66d00492655" Name="Resources.grsc" NameTracksFileName="True" />
+	</EnvoyManagerFile>
+</SourceFile>

@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="0A0F466206D954633092230ABA572FD7DF46963B422F7BD2DC03AA458E8B818C5799AFAE3FEF5F5FDBCD0A4C7779216EDA92647F35FA3ACC2E23CBA771E6772F" Timestamp="1D75FCBF7EDFC9C" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW FPGA" Name="http://www.ni.com/LabVIEW.FPGA" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="785155446fa7440d9dd4dfb3e7e402ab" Reentrancy="Stateful" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="61262dd14ecb4a079ca03ca58c954457" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="59b6b479ea83484e9b1bbcc8f54b8387" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="ea58986929b04020b1eb0bfa5bfef77e" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="f2a71c1179fc470daaa7b6c1bd3b7e8a" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="acfe711644ea46478a0d3c2504c657f7" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Id="f8372c99071642b5a7adadf794606777" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Function_2" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+						<FontSetting FontFamily="Segoe UI" FontSize="6" Id="6aeaa29020534cc0961b3d9a078cee93" />
+					</FileNameText>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="12389a0bd314703b100577d788061d1" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="d314280bb918453da92629d71746ff87" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="621e8ca0314f434eaa38241c9300acce" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0">
+			<NumericText Height="[float]22" Id="955f3cd2a11140138b5b58d7129948a4" Interval="[uint]1" Left="[float]0" Name="[string]number of data packets_in" TabIndex="[int]0" Top="[float]0" Value="{DataItemBinding Id=366bba3f0211485c855a0bbc4d4a85df}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]UInt32" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<NumericText Height="[float]22" Id="69e1e3f446b24b9893492034765a662a" Interval="[uint]1" IsReadOnly="[bool]True" Left="[float]0" Name="[string]number of data packets_out" TabIndex="[int]1" Top="[float]0" Value="{DataItemBinding Id=d2e0d9eb67e540e4b4c6787720f9243a}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]UInt32" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<NumericText Height="[float]22" Id="380226a16a7e4de8a2ba5828636a7d37" Interval="[uint]1" Left="[float]0" Name="[string]UDP data packet size_in" TabIndex="[int]2" Top="[float]0" Value="{DataItemBinding Id=44190a23a5984da1ab64847fc47fd821}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]UInt32" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<NumericText Height="[float]22" Id="b8ccd9e2281d45b0a5dfe992837ff852" Interval="[uint]1" IsReadOnly="[bool]True" Left="[float]0" Name="[string]UDP data packet size_2_out" TabIndex="[int]3" Top="[float]0" Value="{DataItemBinding Id=8f0edc2fe5ee4c8694d64680aa2bf287}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]UInt32" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<NumericText Height="[float]22" Id="2dfa525b206d4738b51877190fe4d5d4" Interval="[uint]1" Left="[float]0" Name="[string]last_data_packet_size_in" TabIndex="[int]4" Top="[float]0" Value="{DataItemBinding Id=3fdb088082e6445db7ad4951be1ff012}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]UInt32" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<NumericText Height="[float]22" Id="c7cee3fe143540dea49049d9c7ea5275" Interval="[uint]1" IsReadOnly="[bool]True" Left="[float]0" Name="[string]last_data_packet_size_out" TabIndex="[int]5" Top="[float]0" Value="{DataItemBinding Id=2813376a80374fa1903184847dfbc63a}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]UInt32" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="bd0128212eb54390af6b8fa29e141789" IsReadOnly="[bool]True" Left="[float]0" Name="[string]valid sample" Shape="[LEDShape]Square" TabIndex="[int]6" Top="[float]0" TrueContent="[string]On" Value="{DataItemBinding Id=ea9c85c9c5054bd98b06fbcce994238d}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="71da039aa29a401abecf7e5b11364380" Interval="[int]1" IsReadOnly="[bool]True" Left="[float]0" Name="[string]number of elements read" TabIndex="[int]7" Top="[float]0" Value="{DataItemBinding Id=e06c7194fc9a407396007adff2a84208}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="307ba193b73543e58252f9ffc8cdf29f" Interval="[ulong]1" IsReadOnly="[bool]True" Left="[float]0" Name="[string]iteration" TabIndex="[int]8" Top="[float]0" Value="{DataItemBinding Id=373dddb6a8e4634b1aedb6fa4473c7f}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]UInt64" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="5a2db997eb7b444189e1fe3e64b8a69d" IsReadOnly="[bool]True" Left="[float]0" Name="[string]reset out" Shape="[LEDShape]Square" TabIndex="[int]9" Top="[float]0" TrueContent="[string]On" Value="{DataItemBinding Id=3709ff779ade4bc78019edeffaad0dd3}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="ee08459b04a644da81ea620f483b9816" IsReadOnly="[bool]False" Left="[float]0" Name="[string]reset in" Shape="[LEDShape]Square" TabIndex="[int]10" Top="[float]0" TrueContent="[string]On" Value="{DataItemBinding Id=16abca45cc82474581344ffae7fd0d55}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+		</FrontPanelUnplacedItems>
+		<BlockDiagram Id="c45be73b4345445fa02d6f287ac0db16">
+			<ClockDrivenLoop Bounds="174 160 811 456" DiagramId="ad2a90acb3264d97a9c4fdc1993273c9" Id="c3988f0c5a514210a30c3dab75f55ceb" xmlns="http://www.ni.com/LabVIEW.FPGA">
+				<LoopIteration Bounds="5 425 15 15" Id="9f746228f3f34b578a93e312f369b867" xmlns="http://www.ni.com/LabVIEW.VI" />
+				<LoopCondition Bounds="740 425 15 15" Id="53f94d4997e047b19bce10fa99cb5e40" LoopConditionMode="Infinite" xmlns="http://www.ni.com/LabVIEW.VI" />
+				<FIFORead Bounds="134 80 46 65" Id="54a9d0bfcfe8484a991334206f1916aa" />
+				<IONameConstant Bounds="9 80 100 30" DataType="@b9e31e7600884c4094031f51d8212143" Id="1a9009fb01a04d728069a08d8ecbe19a" Label="e49de6e2211b4a0493bc6c8cd16776df" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>Toplevel_FPGA::Resources.grsc::H2T</p.Data>
+					<IONameConstantBehavior />
+				</IONameConstant>
+				<NodeLabel AttachedTo="1a9009fb01a04d728069a08d8ecbe19a" Bounds="9 62 30 15" Id="e49de6e2211b4a0493bc6c8cd16776df" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>reference in</p.Text>
+				</NodeLabel>
+				<IONameConstant Bounds="299 30 100 30" DataType="@84c8204901764347871187d1b4cbd781" Id="984889ef53594813a8bccff5e73f6460" Label="af161822bf4c4cb0809f9a2cd701d4a8" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>Toplevel_FPGA::Resources.grsc::T2H</p.Data>
+					<IONameConstantBehavior />
+				</IONameConstant>
+				<NodeLabel AttachedTo="984889ef53594813a8bccff5e73f6460" Bounds="299 12 30 15" Id="af161822bf4c4cb0809f9a2cd701d4a8" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>reference in</p.Text>
+				</NodeLabel>
+				<FIFOWrite Bounds="479 80 46 65" Id="f0612a670b4440acafeafd98bb439f4d" />
+				<Wire Id="d665a20ec7db40ed8d2db5fc4035a92c" Joints="N(984889ef53594813a8bccff5e73f6460:Out)|(399,35) h(75) v(50) N(f0612a670b4440acafeafd98bb439f4d:reference in)|(479,85)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="154 345 40 15" DataItem="366bba3f0211485c855a0bbc4d4a85df" Id="c2eacd80336847af81cb252d73b3d369" Label="9eaaebd10e614490bba3961a21711b7f" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="UInt32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="c2eacd80336847af81cb252d73b3d369" Bounds="0 345 149 14" Id="9eaaebd10e614490bba3961a21711b7f" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>number of data packets_in</p.Text>
+				</NodeLabel>
+				<DataAccessor Bounds="209 345 40 15" DataItem="d2e0d9eb67e540e4b4c6787720f9243a" Id="ff0db04022ab46cda75670111333396b" Label="c53665f0447c4472884a75e2f867bca2" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="UInt32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="ff0db04022ab46cda75670111333396b" Bounds="254 345 157 14" Id="c53665f0447c4472884a75e2f867bca2" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>number of data packets_out</p.Text>
+				</NodeLabel>
+				<DataAccessor Bounds="154 370 40 15" DataItem="44190a23a5984da1ab64847fc47fd821" Id="11d4c08067234b5ba9caec271d5eeedf" Label="64c74245104d499aaa9b46169057e6bc" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="UInt32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="11d4c08067234b5ba9caec271d5eeedf" Bounds="15 370 134 14" Id="64c74245104d499aaa9b46169057e6bc" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>UDP data packet size_in</p.Text>
+				</NodeLabel>
+				<DataAccessor Bounds="209 370 40 15" DataItem="8f0edc2fe5ee4c8694d64680aa2bf287" Id="14e84a02e96f4595996c806d956a9cb7" Label="de4e850371e64167a1c655a5f38354a8" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="UInt32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="14e84a02e96f4595996c806d956a9cb7" Bounds="254 370 156 14" Id="de4e850371e64167a1c655a5f38354a8" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>UDP data packet size_2_out</p.Text>
+				</NodeLabel>
+				<Wire Id="632d2ad65000414ba49a0234b8207c42" Joints="N(11d4c08067234b5ba9caec271d5eeedf:Value)|(194,375) N(14e84a02e96f4595996c806d956a9cb7:Value)|(212,375)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="159 390 40 15" DataItem="3fdb088082e6445db7ad4951be1ff012" Id="6fd77e6d270d4467947ff0daef529bd7" Label="c321ff56e4c44d5db7d2c4bf4af542a0" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="UInt32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="6fd77e6d270d4467947ff0daef529bd7" Bounds="14 390 140 14" Id="c321ff56e4c44d5db7d2c4bf4af542a0" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>last_data_packet_size_in</p.Text>
+				</NodeLabel>
+				<DataAccessor Bounds="209 390 40 15" DataItem="2813376a80374fa1903184847dfbc63a" Id="a2f3656232ec454a934eb44911b4a2e4" Label="2b5d2eb8cb934d4ba6d7dd727282b28b" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="UInt32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="a2f3656232ec454a934eb44911b4a2e4" Bounds="254 390 148 14" Id="2b5d2eb8cb934d4ba6d7dd727282b28b" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>last_data_packet_size_out</p.Text>
+				</NodeLabel>
+				<Wire Id="7f56d2c3a49f408b8be1583d1f78bdfb" Joints="N(6fd77e6d270d4467947ff0daef529bd7:Value)|(199,395) N(a2f3656232ec454a934eb44911b4a2e4:Value)|(212,395)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="9c6942a40bea43f1bcd5fd3596c9023a" Joints="N(1a9009fb01a04d728069a08d8ecbe19a:Out)|(109,85) N(54a9d0bfcfe8484a991334206f1916aa:reference in)|(134,85)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="644 155 40 15" DataItem="ea9c85c9c5054bd98b06fbcce994238d" Id="56138c6235fc4a1daac026b388338e19" Label="5c0d48ad3bf14290a1c77517424b16b7" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="56138c6235fc4a1daac026b388338e19" Bounds="689 155 70 14" Id="5c0d48ad3bf14290a1c77517424b16b7" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>valid sample</p.Text>
+				</NodeLabel>
+				<Select Bounds="444 255 40 40" Id="f5da0b1c7c98411e92bc47ca32d544e4" xmlns="http://www.ni.com/LabVIEW.VI" />
+				<Literal Bounds="399 285 40 16" DataType="Int32" Id="4cc61aaa8ab84da388676a5590608fd5" Label="e0ea60e265c04248b73eab9ec9b10732" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>0</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
+				</Literal>
+				<NodeLabel AttachedTo="4cc61aaa8ab84da388676a5590608fd5" Bounds="399 267 30 15" Id="e0ea60e265c04248b73eab9ec9b10732" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>false value</p.Text>
+				</NodeLabel>
+				<Wire Id="29a1c4683f4042c8ac5d5ef74da6b7be" Joints="N(4cc61aaa8ab84da388676a5590608fd5:Out)|(439,290) N(f5da0b1c7c98411e92bc47ca32d544e4:f)|(444,290)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Literal Bounds="399 255 40 16" DataType="Int32" Id="2eabff023f10459dad6a5a71c851a8b2" Label="827dc2ceec614861bc71aee30cdc592d" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>1</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
+				</Literal>
+				<NodeLabel AttachedTo="2eabff023f10459dad6a5a71c851a8b2" Bounds="399 237 30 15" Id="827dc2ceec614861bc71aee30cdc592d" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>true value</p.Text>
+				</NodeLabel>
+				<Wire Id="92476cf2ed29488baba182f31bad1116" Joints="N(2eabff023f10459dad6a5a71c851a8b2:Out)|(439,260) N(f5da0b1c7c98411e92bc47ca32d544e4:t)|(444,260)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Add Bounds="509 255 30 30" Id="e26276b47030457c86587bdd346e4ac3" Terminals="o=1099cd6cdc054314ab80de29f704b0fe, c0t0v=4cf5a78592f947bf9ff922858c8405cd, c1t0v=e5cec19b041a4e7291c501d5e08ff238" xmlns="http://www.ni.com/LabVIEW.VI" />
+				<Wire Id="e5cec19b041a4e7291c501d5e08ff238" Joints="N(f5da0b1c7c98411e92bc47ca32d544e4:s? t:f)|(484,275) N(e26276b47030457c86587bdd346e4ac3:c1t0v)|(509,275)" xmlns="http://www.ni.com/PlatformFramework" />
+				<FeedbackNode Bounds="506 205 30 20" EnableTerminalVisible="False" Id="6cbbccedb3914c4c9c87967a5f2a6d4c" xmlns="http://www.ni.com/LabVIEW.VI" />
+				<Wire Id="4cf5a78592f947bf9ff922858c8405cd" Joints="N(6cbbccedb3914c4c9c87967a5f2a6d4c:output)|(506,215) h(-17) v(45) N(e26276b47030457c86587bdd346e4ac3:c0t0v)|(509,260)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Increment Bounds="439 340 30 30" Id="3ec322afd89c46639f2753b8d6abe14c" xmlns="http://www.ni.com/LabVIEW.VI">
+					<ConfigurableDataTypeTerminal DataType="UInt64" DesiredType="UInt64" Direction="Output" GuardBits="12" Hotspot="30 15" Id="x+1" TypeOverrideKind="Exact" xmlns="http://www.ni.com/PlatformFramework" />
+				</Increment>
+				<FeedbackNode ArrowDirection="Right" Bounds="529 345 30 20" EnableTerminalVisible="False" Id="d95c2172b95b4ee98449fe3c89a1f2b1" xmlns="http://www.ni.com/LabVIEW.VI" />
+				<Wire Id="11805d652ebb4dcbb48f800ddaff4972" Joints="N(3ec322afd89c46639f2753b8d6abe14c:x+1)|(469,355) N(d95c2172b95b4ee98449fe3c89a1f2b1:input)|(535,355)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Comment Bounds="459 365 64.8 15.2" Id="b3eaa603d8c04f8495a93eb8a3915408" xmlns="http://www.ni.com/MocCommon">
+					<p.Text>iteration</p.Text>
+				</Comment>
+				<Comment Bounds="404 185 160 15.2" Id="8bc39df23373455c835bbe7dec41034f" xmlns="http://www.ni.com/MocCommon">
+					<p.Text>number of elements read</p.Text>
+				</Comment>
+				<Wire Id="c3e225ff924a4da888df948beb97bce5" Joints="N(d95c2172b95b4ee98449fe3c89a1f2b1:output)|(559,355) h(3.09997559) v(-30) B(2) h(-141.099976) v(30) N(3ec322afd89c46639f2753b8d6abe14c:x)|(439,355) B(2) N(45952a2b0f3c440ebf1ce50de5172b90:Value)|(577,325)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="1099cd6cdc054314ab80de29f704b0fe" Joints="N(e26276b47030457c86587bdd346e4ac3:o)|(539,270) h(6) B(1) N(cdd3b8e80204495babd82b9f03e6e8d:Value)|(577,270) B(1) v(-55) N(6cbbccedb3914c4c9c87967a5f2a6d4c:input)|(530,215)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="574 265 40 15" DataItem="e06c7194fc9a407396007adff2a84208" Id="cdd3b8e80204495babd82b9f03e6e8d" Label="81d63ab778394ca68e09f719cc822401" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Int32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="cdd3b8e80204495babd82b9f03e6e8d" Bounds="619 265 140 14" Id="81d63ab778394ca68e09f719cc822401" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>number of elements read</p.Text>
+				</NodeLabel>
+				<DataAccessor Bounds="574 320 40 15" DataItem="373dddb6a8e4634b1aedb6fa4473c7f" Id="45952a2b0f3c440ebf1ce50de5172b90" Label="6d0b2f06f99945fb97e6074aa463a758" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="UInt64" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="45952a2b0f3c440ebf1ce50de5172b90" Bounds="619 320 47 14" Id="6d0b2f06f99945fb97e6074aa463a758" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>iteration</p.Text>
+				</NodeLabel>
+				<Wire Id="6b999a004ee24b228a005b17d4cc1c5c" Joints="N(54a9d0bfcfe8484a991334206f1916aa:data)|(180,95) N(f0612a670b4440acafeafd98bb439f4d:data)|(479,95)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="b1aff3d193b14fb795bd729046d932b1" Joints="N(54a9d0bfcfe8484a991334206f1916aa:Control Protocol Output)|(180,130) h(70) v(10) h(4) B(3) N(f0612a670b4440acafeafd98bb439f4d:Control Protocol Input)|(479,140) B(3) v(20) B(5) N(56138c6235fc4a1daac026b388338e19:Value)|(647,160) B(5) v(115) N(f5da0b1c7c98411e92bc47ca32d544e4:s)|(444,275)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="e8df4dfecd824fa9a600c70f4603f45b" Joints="N(c2eacd80336847af81cb252d73b3d369:Value)|(194,350) N(ff0db04022ab46cda75670111333396b:Value)|(212,350)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Literal Bounds="79 135 25 15" DataType="Boolean" Id="baff1d6a54d94d1db2d0062cc6c4acfb" Label="a3b9340cca4243c2836f46b398b51421" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>True</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="baff1d6a54d94d1db2d0062cc6c4acfb" Bounds="79 117 30 15" Id="a3b9340cca4243c2836f46b398b51421" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>ready for output</p.Text>
+				</NodeLabel>
+				<Wire Id="b3cd78ef6ea0404fab263af5d9833128" Joints="N(baff1d6a54d94d1db2d0062cc6c4acfb:Out)|(104,140) N(54a9d0bfcfe8484a991334206f1916aa:Control Protocol Input)|(134,140)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="209 310 40 15" DataItem="3709ff779ade4bc78019edeffaad0dd3" Id="8c0e6d3620ef42388f7810bc36660254" Label="8052104f221941c28b8e242ab4492b7d" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="8c0e6d3620ef42388f7810bc36660254" Bounds="254 310 50 14" Id="8052104f221941c28b8e242ab4492b7d" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>reset out</p.Text>
+				</NodeLabel>
+				<DataAccessor Bounds="142 310 40 15" DataItem="16abca45cc82474581344ffae7fd0d55" Id="a9da53f80d4a438486a90e4306c1b453" Label="a6ece68ce7f54431b31ba5eeec537ef5" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="a9da53f80d4a438486a90e4306c1b453" Bounds="95 310 42 14" Id="a6ece68ce7f54431b31ba5eeec537ef5" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>reset in</p.Text>
+				</NodeLabel>
+				<Wire Id="aaa6e6f6bd0e47ee80aa3f0bcdec01ad" Joints="N(a9da53f80d4a438486a90e4306c1b453:Value)|(182,315) N(8c0e6d3620ef42388f7810bc36660254:Value)|(212,315)" xmlns="http://www.ni.com/PlatformFramework" />
+				<ClockDrivenLoop.ClockBorderNode Bounds="1 10 22 20" Docking="Left" Id="91236fd8a002415e8ca700e60ede1a20" Terminals="c3988f0c5a514210a30c3dab75f55ceb=316fa8eaa4b34aa189e08176b1a1c27b" />
+			</ClockDrivenLoop>
+			<IONameConstant Bounds="30 175 120 30" DataType="@2e431d1a5d254e688f2ee16682c010c7" Id="f5e49757a8c8410c9d0fd7f7611a4068" Label="8a9cb82df9e44a37a6ed1f09015ba90d" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>Toplevel_FPGA::Resources.grsc::DerivedClock</p.Data>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="f5e49757a8c8410c9d0fd7f7611a4068" Bounds="30 157 30 15" Id="8a9cb82df9e44a37a6ed1f09015ba90d" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>clock input</p.Text>
+			</NodeLabel>
+			<Wire Id="316fa8eaa4b34aa189e08176b1a1c27b" Joints="N(f5e49757a8c8410c9d0fd7f7611a4068:Out)|(150,180) N(91236fd8a002415e8ca700e60ede1a20:c3988f0c5a514210a30c3dab75f55ceb)|(175,180)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<NativeFrontPanel Background="[SMSolidColorBrush]#ffffffff" Height="[float]1600" HtmlPanel="[bool]False" Id="316d7bf1e2404bd7879f0e3728f8d6de" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
+			<PanelExecutionWindow Id="abc2d8b0714b4591ba06f3ea280200f0" />
+		</NativeFrontPanel>
+		<DataItem DataType="UInt32" Id="366bba3f0211485c855a0bbc4d4a85df" Name="number of data packets_in" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="UInt32" Id="d2e0d9eb67e540e4b4c6787720f9243a" Name="number of data packets_out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="UInt32" Id="44190a23a5984da1ab64847fc47fd821" Name="UDP data packet size_in" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="UInt32" Id="8f0edc2fe5ee4c8694d64680aa2bf287" Name="UDP data packet size_2_out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="UInt32" Id="3fdb088082e6445db7ad4951be1ff012" Name="last_data_packet_size_in" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="UInt32" Id="2813376a80374fa1903184847dfbc63a" Name="last_data_packet_size_out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="ea9c85c9c5054bd98b06fbcce994238d" Name="valid sample" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Int32" Id="e06c7194fc9a407396007adff2a84208" Name="number of elements read" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="UInt64" Id="373dddb6a8e4634b1aedb6fa4473c7f" Name="iteration" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="3709ff779ade4bc78019edeffaad0dd3" Name="reset out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="16abca45cc82474581344ffae7fd0d55" Name="reset in" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="b9e31e7600884c4094031f51d8212143">
+			<Attributed AttributedType="@16a2a1a41df443c4aa40f1098e46df22">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]Fifo" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]FPGA" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="84c8204901764347871187d1b4cbd781">
+			<Attributed AttributedType="@56413a35a183428f8c38763d48cdbd0b">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]Fifo" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]FPGA" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="2e431d1a5d254e688f2ee16682c010c7">
+			<Attributed AttributedType="@072dedbbc0bf418996bae2820a431c4f">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]Clock" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]FPGA" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="16a2a1a41df443c4aa40f1098e46df22">
+			<Generic>
+				<Constraints>
+					<TypeRef>@230215419eb0499e90776cf7362bd424</TypeRef>
+				</Constraints>
+			</Generic>
+		</p.TypeReference>
+		<p.TypeReference TypeId="56413a35a183428f8c38763d48cdbd0b">
+			<Generic>
+				<Constraints>
+					<TypeRef>@4e4c9888ee3b43daa813b9735e15210a</TypeRef>
+					<TypeRef>@0c918492035c423e843d2be9a48c8dea</TypeRef>
+				</Constraints>
+			</Generic>
+		</p.TypeReference>
+		<p.TypeReference TypeId="072dedbbc0bf418996bae2820a431c4f">
+			<Composite Id="1" Name="ClockDataType" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="230215419eb0499e90776cf7362bd424">
+			<Attributed AttributedType="@584628aafbc744d0b6f906d1c6479f2a">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]Fifo" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]FPGA" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="4e4c9888ee3b43daa813b9735e15210a">
+			<Attributed AttributedType="@314f219a6e9b4d19a62a2fc7feaefee4">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]Fifo" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]FPGA" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="0c918492035c423e843d2be9a48c8dea">
+			<Attributed AttributedType="@312be77a4c5044b3a592fc725641758f">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]Fifo" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]FPGA" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="584628aafbc744d0b6f906d1c6479f2a">
+			<Composite Id="1" Name="FifoReadInterface" ReferenceClass="" Interface="" GenericTypeDefinition="@1b56921bdbd44c7ca9ed7fcc7474f4a9">
+				<ClosedGenericParameters>
+					<TypeRef>UInt32</TypeRef>
+				</ClosedGenericParameters>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="314f219a6e9b4d19a62a2fc7feaefee4">
+			<Composite Id="1" Name="FifoWriteInterface" ReferenceClass="" Interface="" GenericTypeDefinition="@9b17f55f20a6459a8e69bd626021ef59">
+				<ClosedGenericParameters>
+					<TypeRef>UInt32</TypeRef>
+				</ClosedGenericParameters>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="312be77a4c5044b3a592fc725641758f">
+			<Composite Id="1" Name="FifoFlushInterface" ReferenceClass="" Interface="" GenericTypeDefinition="@709f3747e8ca453398b1620ffefcdec5">
+				<ClosedGenericParameters>
+					<TypeRef>UInt32</TypeRef>
+				</ClosedGenericParameters>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="1b56921bdbd44c7ca9ed7fcc7474f4a9">
+			<Attributed AttributedType="@1b40d151ccde4035b68ffa26fbf97190">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]Fifo" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]FPGA" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="9b17f55f20a6459a8e69bd626021ef59">
+			<Attributed AttributedType="@21459f0b71a34170972396d713cd20c4">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]Fifo" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]FPGA" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="709f3747e8ca453398b1620ffefcdec5">
+			<Attributed AttributedType="@6c602fa8a0fc4eaa992186b2847693ad">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]Fifo" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]FPGA" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="1b40d151ccde4035b68ffa26fbf97190">
+			<Composite Id="1" Name="FifoReadInterface" ReferenceClass="" Interface="" GenericTypeDefinition="@1b56921bdbd44c7ca9ed7fcc7474f4a9">
+				<GenericParameters>
+					<Generic GenericName="Element" />
+				</GenericParameters>
+				<BaseType>Void</BaseType>
+				<Members>
+					<Field FieldAccessPolicy="Read" Name="used elements" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="full threshold met?" DataType="Boolean" />
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Read" ReturnType="Void" DeclaringType="@1b56921bdbd44c7ca9ed7fcc7474f4a9" GenericTypeDefinition="Void" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="21459f0b71a34170972396d713cd20c4">
+			<Composite Id="1" Name="FifoWriteInterface" ReferenceClass="" Interface="" GenericTypeDefinition="@9b17f55f20a6459a8e69bd626021ef59">
+				<GenericParameters>
+					<Generic GenericName="Element" />
+				</GenericParameters>
+				<BaseType>Void</BaseType>
+				<Members>
+					<Field FieldAccessPolicy="Read" Name="free elements" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="empty threshold met?" DataType="Boolean" />
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Write" ReturnType="Void" DeclaringType="@9b17f55f20a6459a8e69bd626021ef59" GenericTypeDefinition="Void" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="6c602fa8a0fc4eaa992186b2847693ad">
+			<Composite Id="1" Name="FifoFlushInterface" ReferenceClass="" Interface="" GenericTypeDefinition="@709f3747e8ca453398b1620ffefcdec5">
+				<GenericParameters>
+					<Generic GenericName="Element" />
+				</GenericParameters>
+				<BaseType>Void</BaseType>
+				<Members>
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Flush" ReturnType="Void" DeclaringType="@709f3747e8ca453398b1620ffefcdec5" GenericTypeDefinition="Void" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

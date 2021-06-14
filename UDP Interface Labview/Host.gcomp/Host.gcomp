@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="D5A2D4883D5D85905CFB20F7E3CAA27CD5959F1091A7C9716AFF129D76AEA1D603A6B768B035101217150651341B6DE8182ADC484A5EEEBEAB83A05729B3AA72" Timestamp="1D76100C7BB2742" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="a6a3c74ede9a4dd1983cb1f1cd004bae" RootNamespaceId="ce6cd9d099a8498e8a875c34d8f8321a" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="4ac232da394447268245b50a2626aad4" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="1026df9e4cb4409e81d61f8320c624e8" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="57cfa9d6d3074b929806645ede0e8f60" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="6f7582e173e34e2f9fb39d7c4537d818" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="54594900499348eaaf14d9d30c9f5a55" Name="Configuration1">
+			<CompilerSymbolTable Id="c18c40b0f4844412888f06c273566641" xmlns="http://www.ni.com/PlatformFramework" />
+			<GLibraryProperties Id="c04f3c2599aa42af992b2280088691e7" />
+			<ComponentItemProperties AssociatedEnvoyId="fb45bdf4f1fa4671a4ae881125acb192" Exported="True" Id="88e7eb6f6fe74f639945db34be306205" />
+			<ComponentItemProperties AssociatedEnvoyId="626243a1f6664c41b60e702bc35ccf66" Exported="True" Id="55cb4accd43434c8fa5584ee75cfc6b" />
+			<ComponentItemProperties AssociatedEnvoyId="4a98818d6f48928918bdb64f184606" Exported="True" Id="704df3d53acd44beb3d3a4b549a3418e" />
+			<ComponentItemProperties AssociatedEnvoyId="d07fd03b308c44d883534b1e9af3e123" Exported="True" Id="d2f3ff79db86460588b5ae011386fd10" />
+			<ComponentItemProperties AssociatedEnvoyId="f59d5a3da07f46d09deadba8317b8bd9" Exported="True" Id="9b0aa2547325460db6c68f81ee7ccf2e" />
+			<ComponentItemProperties AssociatedEnvoyId="abe7c18e8a47477d916a9ed34581b0a7" Exported="True" Id="875775f142cb40fab258bf1db0da3ebd" />
+			<ComponentItemProperties AssociatedEnvoyId="e55abe6e35ac4223989f690a2d9f5517" Exported="True" Id="37f7353641bc46a2ad9de771e407b2d9" />
+			<ComponentItemProperties AssociatedEnvoyId="e86707127aa74a5cb8f4b9c4efe56e35" Exported="True" Id="eb3bf73fc7bf4a34b54319ad6f864b27" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="eec662e05800450babaa88acb4caefea" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="e9011537911b4c57b3755e8aba6aec1b" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="96a71653af3949c898bd6bd1fd30a6b1" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="ce6cd9d099a8498e8a875c34d8f8321a" Name="Host">
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="886ddce0ecaf40998004dfdd5b3cc0db" Name="UDP_commuication">
+					<SourceFileReference Id="fb45bdf4f1fa4671a4ae881125acb192" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UDP_Interface.gvi" StoragePath="UDP_commuication\UDP_Interface.gvi" />
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="f45bcb40e62940558fc2abcf31312903" Name="UDP read functions">
+						<SourceFileReference Id="626243a1f6664c41b60e702bc35ccf66" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="byte2double.gvi" StoragePath="UDP_commuication\UDP read functions\byte2double.gvi" />
+						<SourceFileReference Id="4a98818d6f48928918bdb64f184606" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="byte2single.gvi" StoragePath="UDP_commuication\UDP read functions\byte2single.gvi" />
+						<SourceFileReference Id="abe7c18e8a47477d916a9ed34581b0a7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="TX commands.gvi" StoragePath="UDP_commuication\UDP read functions\TX commands.gvi" />
+						<SourceFileReference Id="e55abe6e35ac4223989f690a2d9f5517" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="RX command.gvi" StoragePath="UDP_commuication\UDP read functions\RX command.gvi" />
+						<SourceFileReference Id="e86707127aa74a5cb8f4b9c4efe56e35" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="show data type.gvi" StoragePath="UDP_commuication\UDP read functions\show data type.gvi" />
+					</NameScopingEnvoy>
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="77d6fe497b8f458c85d9f31d6096519f" Name="UDP write functions" />
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="15da836cdcb746d38ed1679ca37c1b89" Name="other">
+						<SourceFileReference Id="d07fd03b308c44d883534b1e9af3e123" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="show in matrix.gvi" StoragePath="UDP_commuication\other\show in matrix.gvi" />
+					</NameScopingEnvoy>
+					<SourceFileReference Id="f59d5a3da07f46d09deadba8317b8bd9" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Throughput processing.gvi" StoragePath="UDP_commuication\Throughput processing.gvi" />
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="359141c74b75426cbff49a66ad710730" Name="Converter" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="2b7da375b399449ab48a4e2eadad8abb" Name="Host.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="54594900499348eaaf14d9d30c9f5a55" Id="ef564c7132b64995b87f0c77887b8f5b" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

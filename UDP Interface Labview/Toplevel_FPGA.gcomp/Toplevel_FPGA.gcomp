@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="732F1EC807A3B6C1981EBE4C288232252ACFCE4670526E2556E26AC113E684864F1E3D69652A75588203E6EC0319E9C10C804AFD7FBBC8ED6D35F097342A17BC" Timestamp="1D760FB167465A6" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW FPGA" Name="http://www.ni.com/LabVIEW.FPGA" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="5fbe57abb5cc4d85bc3fa0a96114addc" RootNamespaceId="5a6e868d749c4c818bc2c0ef4bcc713d" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="74149df49ca64c9c9a121ffc45f8ad14" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="6e55556ca1014abaadefa5b5f9ce3d7a" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="da2e8c1b378c45a2b0dd06c1adce79cb" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="ba357b2594a146bfa9280da24ff7ee09" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="Bitfile" Id="5ae9997e7b0e40448caeb161bde64cb9" Name="Configuration1">
+			<CompilerSymbolTable Id="9206518c36834d149cfd06d79d370c47" xmlns="http://www.ni.com/PlatformFramework" />
+			<BitfileOutputTypeProperties Id="656fb68f60e54cadaa1a5e5f73000717" NumberOfDigitsForAutoNumber="4" StartingNumberForAutoNumber="1" xmlns="http://www.ni.com/LabVIEW.FPGA" />
+			<ComponentItemProperties AssociatedEnvoyId="35a7dfef5225445e948e610c372d7dc6" Exported="True" Id="434818c8c4cf4902bac567b7f4926dde" />
+			<ComponentItemProperties AssociatedEnvoyId="569b6cbf8aaa4925b132c19526400d33" Exported="True" Id="25c5ab34bb004f788332013856c808d5" TopLevel="True" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="db5cde3074a64f4089b29999c7c1a14f" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="cb9976e90fce445d885fc94755578ca5" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="757ba7ae270b431d89b6498fc87f2f1e" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="5a6e868d749c4c818bc2c0ef4bcc713d" Name="Toplevel_FPGA">
+				<SourceFileReference Bindings="EnvoyManager" Id="35a7dfef5225445e948e610c372d7dc6" ModelDefinitionType="SharedResourceCollection" Name="Resources.grsc" StoragePath="Resources.grsc" />
+				<SourceFileReference Id="569b6cbf8aaa4925b132c19526400d33" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="FPGA_Top.gvi" StoragePath="FPGA_Top.gvi" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="d78587602b05466e96c5a9e7b5508ee9" Name="Toplevel_FPGA.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="5ae9997e7b0e40448caeb161bde64cb9" Id="b3070b19b9954e528a13c657d50fffca" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
